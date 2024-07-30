@@ -1,0 +1,3 @@
+rootProject.name = 'JAVATASK2024'
+include 'order-management-service'
+include 'user-management-service'
