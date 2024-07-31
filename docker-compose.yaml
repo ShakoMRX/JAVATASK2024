@@ -15,6 +15,10 @@ services:
     image: hazelcast/hazelcast:latest
     ports:
       - "5701:5701"
+    environment:
+      - HZ_NETWORK_JOIN_MULTICAST_ENABLED=false
+      - HZ_NETWORK_JOIN_TCPIP_ENABLED=true
+      - HZ_NETWORK_JOIN_TCPIP_MEMBERS=hazelcast
 
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
