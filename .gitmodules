@@ -1,6 +1,6 @@
 [submodule "order-management-service"]
     path = order-management-service
-    url = https://github.com/ShakoMRX/order-management-service.git
+	url = https://github.com/ShakoMRX/order-management-service.git
 [submodule "user-management-service"]
     path = user-management-service
-    url = https://github.com/ShakoMRX/user-management-service.git
+	url = https://github.com/ShakoMRX/user-management-service.git
